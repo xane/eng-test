@@ -1,0 +1,10 @@
+{
+  "extends": "./server/tsconfig.json",
+  "compilerOptions": { "rootDir": ".", "noEmit": true },
+  "include": [
+    "server/test",
+    "client/test",
+    "playwright.config.ts",
+    "drizzle.config.ts"
+  ]
+}
